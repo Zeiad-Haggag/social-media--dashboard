@@ -1,0 +1,5 @@
+@use "../util/functions" as u;
+
+.card{
+    padding: u.rem(20);
+}

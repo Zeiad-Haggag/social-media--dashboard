@@ -1,0 +1,12 @@
+@use "../util/functions" as u;
+
+.toggle{
+
+    &__button{
+        width: u.rem(16);
+        height: u.rem(16);
+        border-radius:50%;
+        background-color: var(--toggle);
+        
+    }
+}
