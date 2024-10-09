@@ -4,7 +4,8 @@
   "description": "![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir dist-2 && xcopy src\\* dist\\ /s /e /y"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,7 @@
     "sass": "^1.77.4"
   },
   "devDependencies": {
-    "gulp": "^5.0.0"
+    "gulp": "^5.0.0",
+    "parcel": "^2.12.0"
   }
 }
